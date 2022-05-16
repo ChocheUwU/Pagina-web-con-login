@@ -1,0 +1,127 @@
+
+p {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    text-transform: uppercase;
+    text-shadow: 5px 0 black, 2px 0 black;
+    
+}
+
+
+.Alinear {
+    display:flex;
+    justify-content: center;
+}
+
+.Letra {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Titulo2 {
+    font-size: 30px;
+}
+
+.Titulo3 {
+    font-size: 30px;
+}
+
+.info {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.video {
+    display:flex;
+    justify-content: center;
+}
+
+
+@font-face {
+    font-family: mifuente;
+    src: url(../Fuentes/Valorant-Font.ttf);
+}
+
+header{
+   height: 350px;
+   overflow: hidden;
+    font-family: mifuente;
+    background-image: url(../imagenes/20204911423948_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+body{
+background-color: rgb(197, 196, 196);
+}
+
+.centrari1{
+   position: absolute;
+   bottom: 450px;
+   right: 10px;
+}
+
+.centrari2{
+    position: absolute;
+    bottom: 10px;
+    right: 1450px;
+    
+ }
+
+ nav{
+     background-color:rgb(0, 0, 0);
+     height: 50px;
+     overflow: hidden;
+     font-family: mifuente;
+ }
+
+ #menu{
+    background-color: black;
+}
+
+ #menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+ }
+
+ #menu ul li{
+   display: inline-block;
+ }
+
+ #menu ul li a{ 
+     color: white;
+     display: block;
+     padding: 20px 220px;
+     text-decoration: none;
+ }
+
+ #menu ul li a:hover{ 
+     background-color: gray;
+     display: block;
+ }
+ 
+ h2{
+    font-family: mifuente;
+ }
+
+ .item-r{
+     float: right;
+ }
+
+ .item-c{
+    float: center;
+}
+
+.item-p{
+    float: left;
+}
+
+.item-l{
+    float: center;
+}
